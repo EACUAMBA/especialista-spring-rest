@@ -10,6 +10,6 @@ public class MeuPrimeiroController {
     @GetMapping("/hello") // this annotation tells Spring that this method will be invoked when a request to /hello and with method GET be made.
     @ResponseBody // this annotation tells Spring that the response should be put in the body, no view resolvers should be used.
     public String hello(){
-        return "hello";
+        return "Olá!";
     }
 }
