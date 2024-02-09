@@ -27,9 +27,24 @@
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="zk_ce" />
+      <option name="name" value="ZK CE Repository" />
+      <option name="url" value="https://mavensync.zkoss.org/maven2" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="spring_libs-milestone" />
       <option name="name" value="Spring Maven MILESTONE Repository" />
       <option name="url" value="https://repo.spring.io/libs-milestone" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jaspersoft_third-party-ce-artifacts" />
+      <option name="name" value="jaspersoft_third-party-ce-artifacts" />
+      <option name="url" value="https://jaspersoft.jfrog.io/jaspersoft/third-party-ce-artifacts" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="zk_pe-ee-eval" />
+      <option name="name" value="zk_pe-ee-eval" />
+      <option name="url" value="https://mavensync.zkoss.org/eval/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="aaa-data_release" />
@@ -40,6 +55,11 @@
       <option name="id" value="github_eacuamba" />
       <option name="name" value="github_eacuamba" />
       <option name="url" value="https://maven.pkg.github.com/EACUAMBA/*" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="zk_ee" />
+      <option name="name" value="zk_ee" />
+      <option name="url" value="https://maven.zkoss.org/repo/zk/ee" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="aaa-data_snapshots" />
@@ -80,6 +100,11 @@
       <option name="id" value="aaa-data_central" />
       <option name="name" value="aaa-data_central" />
       <option name="url" value="https://repo.aaa-data.fr/artifactory/main-virtual-repo/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jaspersoft_artifactory-online-third-party-ce-artifacts" />
+      <option name="name" value="jaspersoft_artifactory-online-third-party-ce-artifacts" />
+      <option name="url" value="https://jaspersoft.artifactoryonline.com/jaspersoft/third-party-ce-artifacts" />
     </remote-repository>
   </component>
 </project>
